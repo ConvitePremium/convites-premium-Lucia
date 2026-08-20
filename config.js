@@ -87,11 +87,9 @@ window.CONFIG = {
   // use o editor (?editor=1) e cole o resultado aqui.
   //   left/top: canto superior esquerdo do botão
   //   width/height: tamanho do botão
-    hotspots: {
-        confirm: { left:25.449686064098174, top:60.466030655199084, width:19.64355312204473, height:11.449252034014982 },
-        map: { left:55.00868653749942, top:60.12078059785067, width:19.292465283626143, height:11.399863780795407 },
-        dress: { left:25.56607738805926, top:76.10537095759099, width:19.567092651757186, height:11.52034966267883 },
-        manual: { left:54.19227547112636, top:76.22044399828745, width:19.567092651757186, height:11.52034966267883 }
+    botoesVoltar: {
+    dresscode: { mostrarTexto:true, posicao: {"left":3.7,"top":1.5,"width":18.1597412889377,"height":7.956269676528603} },
+    manual: { mostrarTexto:true, posicao: {"left":3.7,"top":1.5,"width":18.773150459265175,"height":7.380896790974874} }
   },
 
   // ----- CONTAGEM REGRESSIVA ---------------------------------------------
@@ -101,12 +99,11 @@ window.CONFIG = {
   // corNumero altera somente a cor dos números.
   // corLegenda altera a cor de Meses, Dias, Horas, Min e Seg.
   // Aceita hexadecimal, nome de cor ou rgb().
-  contagem: {
-    dataEvento: "2026-08-29T18:30:00",
-    textoFinal: "A festa começou!",
-    corNumero: "#ffffff",
-    corLegenda: "#ffffff",
-    posicao: { left:22.5175531649361, top:51.45224389795505, width:56.19169641074281, height:6.218642289127358 }
+  hotspots: {
+        confirm: { left:20.54235030131862, top:64.37857769032775, width:59.10680254796326, height:3.969392449989933 },
+        map: { left:20.657242597802934, top:72.08855242048665, width:58.14230553921719, height:3.920601884592109 },
+        dress: { left:20.249786578354787, top:79.78776971644919, width:59.03034207767572, height:3.4603009422960542 },
+        manual: { left:20.249786578354794, top:87.15254967514511, width:59.23482740115814, height:3.4651139007837135 }
   },
 
   // ----- MÚSICA DE FUNDO -------------------------------------------------
